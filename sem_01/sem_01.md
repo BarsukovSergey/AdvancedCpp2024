@@ -1,4 +1,4 @@
-# Linux. Utils. Bash. Vim.
+# 1. Linux. Utils. Bash. Vim.
 
 ## Linux
 
