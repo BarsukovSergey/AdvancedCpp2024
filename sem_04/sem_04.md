@@ -161,34 +161,26 @@ void foo[];           // not legal
 `foo is pointer to pointer to array of pointers to function taking int and double and returning pointer to array of 3 pointers to function taking int and return int`
 </details>
 
-* Куда нужно поставить имя в типе 
+* Куда нужно поставить имя в типе `int *(*(*(*)(int))[][3])(int*)`?
 <details>
   <summary>Решение</summary>
 
-`foo[][3]`
+`int *(*(*(*foo)(int))[][3])(int*)`
 </details>
-* 
+
+* А как читается этот тип?
 <details>
   <summary>Решение</summary>
 
-
+`foo is pointer to function taking int and returning pointer to array of arrays of 3 pointers to function taking int and returning pointer to int`
 </details>
-* 
-<details>
-  <summary>Решение</summary>
 
+[//]: # (* )
 
-</details>
-* 
-<details>
-  <summary>Решение</summary>
+[//]: # (<details>)
 
+[//]: # (  <summary>Решение</summary>)
 
-</details>
-* 
-<details>
-  <summary>Решение</summary>
-
-
-</details>
-* 
+[//]: # ()
+[//]: # ()
+[//]: # (</details>)
