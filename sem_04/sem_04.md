@@ -1,4 +1,4 @@
-# Complicated declarations, 
+# Complicated declarations, stages of compilation, sanitizers
 
 ## Complicated declarations
 Мы уже научились делать простые объявления:
